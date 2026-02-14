@@ -1,0 +1,22 @@
+name: nqs_env
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyter
+  - pytest
+  - pytorch
+  - pip
+  - pip:
+      - qiskit[visualization]
+      - qiskit-ibm-runtime 
+      - qiskit-nature
+      - qiskit-aer 
+      - pyscf
+      - qutip         
+      - netket
+      - -e .
